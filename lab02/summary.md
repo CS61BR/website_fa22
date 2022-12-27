@@ -5,9 +5,9 @@ nav_order: 2
 ---
 
 
-## Writing Code
+## Assignment Overview
 
-You will be testing the following methods:
+You will be debugging the following methods:
  - `rounded_division` (fix optional)
  - `sum_of_elementwise_maxes` and helpers (fix required)
  - `product` and `sum` (fix required)
@@ -15,23 +15,21 @@ You will be testing the following methods:
  - `set_to_zero_if_max_fel` and helpers (fix required)
  - `square_primes` and helpers (fix required)
 
-The given tests are not comprehensive; you are encouraged to write additional tests.
 
-## Running Code
+## Running the Programs
 
-For the first two exercises:
+To run each part of the assignment:
  - `cargo run --bin debug_exercise_1`
  - `cargo run --bin debug_exercise_2`
+ - `cargo test arithmetic`
+ - `cargo test int_list`
 
-See [Background](background.md) for how to debug them.
 
-## Testing Code
+## Submitting Your Code
 
-You will be using both `cargo test` and `rust-gdb`. See [Background](background.md) for how to debug them.
+Before submitting your code, make sure to:
+ - Run `cargo clippy` and fix any warnings that appear.
+ - Run `cargo fmt` to format your code according to the Rust style guidelines.
+ - Commit and push your code to your repository.
 
-## Submitting Code
-
- - run `cargo clippy`, and fix any warnings that appear
- - run `cargo fmt`
- - commit and push your code
- - submit to the Gradescope assignment
+Then, submit your code to the [Gradescope assignment](https://cheese.com/).
