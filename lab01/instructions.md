@@ -4,7 +4,11 @@ title: Instructions
 nav_order: 2
 ---
 
-After you've done the [setup](setup.md), you're ready to begin the lab!
+## Starting the Lab
+
+ - Do the [setup](setup.md).
+ - Open the `lab01/` folder in your preferred text editor.
+ - Open the `lab01/` folder in your preferred terminal.
 
 ## Task: Implement Collatz
 

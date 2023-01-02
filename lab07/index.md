@@ -7,4 +7,14 @@ nav_order: 6
 
 # Lab 07: BSTMap
 
-we make bstmap from scratch
+## Lab Goals
+
+ - To implement a binary search tree from scratch
+
+
+## Differences from the Java version
+
+ - The methods to implement are a bit different.
+ - The "speed tests" have all been combined into `benchmark.rs`
+ - No additional asymptotics problems
+

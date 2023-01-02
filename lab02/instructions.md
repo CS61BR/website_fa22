@@ -4,6 +4,12 @@ title: Instructions
 nav_order: 1
 ---
 
+## Starting the Lab
+
+ - Open the `lab02/` folder in your preferred text editor.
+ - Open the `lab02/` folder in your preferred terminal.
+ - Run `git pull skeleton main` to get the latest version of the skeleton code for this lab.
+
 ## Debug Exercise 1
 
 I've created an amazing program to do my math homework for me; unfortunately, it has a bug in it! It's supposed to round each calculation to the nearest whole number, but sometimes it gives incorrect results.

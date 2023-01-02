@@ -66,6 +66,10 @@ A repository is a directory that contains your project files and stores them in 
  - If you haven't already, make an account on [Github](https://github.com/). You'll need to create either a personal authentication token or an SSH key for your account; instructions on creating a PAT are [here](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
  - On github, create a new, **private** repository. You can name it anything.
  - Clone your new repository (`git clone https://github.com/yourusername/example-name.git`). Git may give you a warning ("You appear to have cloned an empty repository"), which is completely fine.
+ - Your new repository will be receiving code updates from multiple remotes, so you need to tell Git to merge commits on pull. `cd` into your new repository, and run
+    ```
+    git config pull.rebase false
+    ```
  - In your new repository, add the skeleton repository as a remote:
     ```
     git remote add skeleton https://github.com/sberkun/61b_rust_skeletons.git
