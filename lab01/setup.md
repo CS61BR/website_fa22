@@ -34,6 +34,14 @@ info: The currently active `rustc` version is `rustc 1.65.0 (897e37553 2022-11-0
 ```
 but with different numbers.
 
+## Install wasm-pack
+
+Rust can compile code to WebAssembly, which allows us to build web pages with Rust. The wasm-pack tool helps us generate Javascript bindings for those web pages.
+
+To install wasm-pack, follow the instructions at [https://rustwasm.github.io/wasm-pack/](https://rustwasm.github.io/wasm-pack/).
+
+To verify that wasm-pack is installed, run `wasm-pack --version`. You should see something like `wasm-pack [numbers]`.
+
 ## Install a Text Editor
 
 You will need a text editor to write and edit your Rust code. The instructions in this course assume that you are using Visual Studio Code (VSCode), but you can use a different text editor if you prefer (such as Atom, Sublime, or Neovim).
