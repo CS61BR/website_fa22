@@ -21,9 +21,9 @@ Your wire would probably still be conductive even if it was only 95% copper; as 
 
 This behavior is not unique to the conductivity of copper. In fact, there's an entire field, [percolation theory](https://en.wikipedia.org/wiki/Percolation_theory), dedicated to this subject. There is no known way to calculate the [percolation threshold](https://en.wikipedia.org/wiki/Percolation_threshold) for most models, but a lot of people have tried really hard (as evidenced by all the fancy math stuff on the wikipedia page).
 
-In this project, we're going to investigate a model of water in a porous material. We'll model the material as a square lattice (a.k.a. a grid), and assume that water comes from the top. We'll say the system *percolates* if there's a path for water to reach the bottom of the model.
+In this project, we're going to investigate a model of water in a porous material. We'll model the material as a square lattice (a.k.a. a grid), and assume that water comes from the top. Sites (grid spaces) can be closed or open; open sites fill with water if they are connected to the top. We'll say the system *percolates* if there's a path for water to reach the bottom of the model.
 
-In the following examples, black sites (grid spaces) are *closed*, white sites are *open* but *empty*, and blue sites are *open* and *full*. 
+In the following examples, black sites are *closed*, white sites are *open* but *empty*, and blue sites are *open* and *full*. 
 
 <div style="display: flex;">
 
