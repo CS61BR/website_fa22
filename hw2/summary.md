@@ -1,5 +1,5 @@
 ---
-parent: "Project 0: 2048"
+parent: "Project 1.5: Percolation"
 title: Summary and Deliverables
 nav_order: 2
 ---
@@ -7,12 +7,9 @@ nav_order: 2
 
 ## Assignment Overview
 
-You will implementing `tilt` and `game_over` in `game.rs`.
+You will implementing `calculate_stats` in `percolationstats.rs` and all the methods in `percolation.rs`.
 
-## Running the Project
-
-To test your code, run `cargo test`.
-
+## Running the Program
 
 To run the project, you should open two terminals:
  - In one terminal, run `wasm-pack build --target web` to compile your code.

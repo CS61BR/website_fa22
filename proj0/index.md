@@ -11,7 +11,9 @@ nav_order: 10
 
 Play the demo [here](https://sberkun.github.io/2048/)!
 
-## Differences from the Java version
+## Bonus Features
+
+If you're familiar with the Java version of this project, here are some new features to be aware of:
 
  - The game has been generalized to an N * M grid (rather than just 4 * 4)
  - The game does not end at 2048 (the "max tile"). Just like most other implementations, the game continues until moves can no longer be made, so 4096 and beyond are valid tiles.

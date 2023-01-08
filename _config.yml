@@ -31,6 +31,9 @@ callouts:
     title: Warning
     color: red
 
+aux_links:
+  "Dark Mode":
+    - "#"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

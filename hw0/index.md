@@ -23,5 +23,3 @@ Rust is hard language learn here
  - options/results
  - generics
  - traits
-
-This is a math test: $$O(MN)$$. $$\Theta(MN)$$.
