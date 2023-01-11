@@ -9,7 +9,7 @@ nav_order: 10
 
 ## Project Demo
 
-Play the demo [here](https://sberkun.github.io/2048/)!
+Play the demo [here](../demos/game2048/)!
 
 ## Bonus Features
 

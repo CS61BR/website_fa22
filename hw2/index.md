@@ -9,7 +9,7 @@ nav_order: 12
 
 ## Project Demo
 
-See the demo [here](https://sberkun.github.io/percolation/)!
+See the demo [here](../demos/percolation/)!
 
 ## Differences from the Java version
 
